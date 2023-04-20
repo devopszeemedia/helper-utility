@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.zshop.helper.utils.ConversionUtilsTest" time="0.208" tests="29" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.zshop.helper.utils.ConversionUtilsTest" time="0.185" tests="29" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/abhipreet/Documents/gcp-related-repos/helper-utility/target/surefire/surefirebooter17966263252185388917.jar /home/abhipreet/Documents/gcp-related-repos/helper-utility/target/surefire 2023-04-20T16-55-02_523-jvmRun1 surefire4576020747749422018tmp surefire_013954625289390999875tmp"/>
+    <property name="sun.java.command" value="/home/abhipreet/Documents/gcp-related-repos/helper-utility/target/surefire/surefirebooter8995661414446998157.jar /home/abhipreet/Documents/gcp-related-repos/helper-utility/target/surefire 2023-04-20T18-16-38_474-jvmRun1 surefire886543414619794809tmp surefire_010876168600272484602tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/abhipreet/Documents/gcp-related-repos/helper-utility/target/test-classes:/home/abhipreet/Documents/gcp-related-repos/helper-utility/target/classes:/home/abhipreet/.m2/repository/org/springframework/boot/spring-boot-starter/2.2.7.RELEASE/spring-boot-starter-2.2.7.RELEASE.jar:/home/abhipreet/.m2/repository/org/springframework/boot/spring-boot/2.2.7.RELEASE/spring-boot-2.2.7.RELEASE.jar:/home/abhipreet/.m2/repository/org/springframework/spring-context/5.2.6.RELEASE/spring-context-5.2.6.RELEASE.jar:/home/abhipreet/.m2/repository/org/springframework/spring-aop/5.2.6.RELEASE/spring-aop-5.2.6.RELEASE.jar:/home/abhipreet/.m2/repository/org/springframework/spring-expression/5.2.6.RELEASE/spring-expression-5.2.6.RELEASE.jar:/home/abhipreet/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.2.7.RELEASE/spring-boot-autoconfigure-2.2.7.RELEASE.jar:/home/abhipreet/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar:/home/abhipreet/.m2/repository/org/springframework/spring-core/5.2.6.RELEASE/spring-core-5.2.6.RELEASE.jar:/home/abhipreet/.m2/repository/org/springframework/spring-jcl/5.2.6.RELEASE/spring-jcl-5.2.6.RELEASE.jar:/home/abhipreet/.m2/repository/org/yaml/snakeyaml/1.25/snakeyaml-1.25.jar:/home/abhipreet/.m2/repository/org/springframework/spring-web/5.2.6.RELEASE/spring-web-5.2.6.RELEASE.jar:/home/abhipreet/.m2/repository/org/springframework/spring-beans/5.2.6.RELEASE/spring-beans-5.2.6.RELEASE.jar:/home/abhipreet/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/home/abhipreet/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/home/abhipreet/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/home/abhipreet/.m2/repository/org/apache/httpcomponents/httpclient/4.5/httpclient-4.5.jar:/home/abhipreet/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/home/abhipreet/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/home/abhipreet/.m2/repository/org/mockito/mockito-all/1.10.19/mockito-all-1.10.19.jar:/home/abhipreet/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/abhipreet/.m2/repository/org/hamcrest/hamcrest-core/2.1/hamcrest-core-2.1.jar:/home/abhipreet/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/home/abhipreet/.m2/repository/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar:/home/abhipreet/.m2/repository/com/squareup/okhttp3/okhttp/3.14.8/okhttp-3.14.8.jar:/home/abhipreet/.m2/repository/com/squareup/okio/okio/1.17.2/okio-1.17.2.jar:/home/abhipreet/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/home/abhipreet/.m2/repository/com/konghq/unirest-java/3.1.02/unirest-java-3.1.02.jar:/home/abhipreet/.m2/repository/org/apache/httpcomponents/httpmime/4.5.12/httpmime-4.5.12.jar:/home/abhipreet/.m2/repository/org/apache/httpcomponents/httpasyncclient/4.1.4/httpasyncclient-4.1.4.jar:/home/abhipreet/.m2/repository/org/apache/httpcomponents/httpcore-nio/4.4.13/httpcore-nio-4.4.13.jar:/home/abhipreet/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/home/abhipreet/.m2/repository/org/jsoup/jsoup/1.15.3/jsoup-1.15.3.jar:/home/abhipreet/.m2/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar:/home/abhipreet/.m2/repository/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar:/home/abhipreet/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.3/jackson-annotations-2.13.3.jar:/home/abhipreet/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/home/abhipreet/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/abhipreet/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/home/abhipreet/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.2/jackson-databind-2.14.2.jar:/home/abhipreet/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.4/jackson-core-2.10.4.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/abhipreet/Documents/gcp-related-repos/helper-utility/target/surefire/surefirebooter17966263252185388917.jar"/>
+    <property name="surefire.real.class.path" value="/home/abhipreet/Documents/gcp-related-repos/helper-utility/target/surefire/surefirebooter8995661414446998157.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.18+10-post-Ubuntu-0ubuntu118.04.1"/>
     <property name="user.name" value="abhipreet"/>
@@ -57,33 +57,33 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="shouldTestGetSafeBigDecimalFail" classname="com.zshop.helper.utils.ConversionUtilsTest" time="0.003"/>
-  <testcase name="shouldTestStringToBooleanConverter" classname="com.zshop.helper.utils.ConversionUtilsTest" time="0"/>
+  <testcase name="shouldTestGetSafeBigDecimalFail" classname="com.zshop.helper.utils.ConversionUtilsTest" time="0.002"/>
+  <testcase name="shouldTestStringToBooleanConverter" classname="com.zshop.helper.utils.ConversionUtilsTest" time="0.001"/>
   <testcase name="shouldTestGetSafeBigDecimalForDouble" classname="com.zshop.helper.utils.ConversionUtilsTest" time="0"/>
-  <testcase name="shouldTestGetSafeIntegerNullFail" classname="com.zshop.helper.utils.ConversionUtilsTest" time="0"/>
+  <testcase name="shouldTestGetSafeIntegerNullFail" classname="com.zshop.helper.utils.ConversionUtilsTest" time="0.001"/>
   <testcase name="shouldTestGetSafeBooleanFromInteger" classname="com.zshop.helper.utils.ConversionUtilsTest" time="0"/>
   <testcase name="shouldTestGetSafeBigDecimal" classname="com.zshop.helper.utils.ConversionUtilsTest" time="0"/>
   <testcase name="shouldTestConvertBlankToNoFail" classname="com.zshop.helper.utils.ConversionUtilsTest" time="0"/>
   <testcase name="shouldTestGetSafeBigDecimalForString" classname="com.zshop.helper.utils.ConversionUtilsTest" time="0"/>
-  <testcase name="shouldTestGetSafeDouble" classname="com.zshop.helper.utils.ConversionUtilsTest" time="0.001"/>
-  <testcase name="shouldTestGetSafeInteger" classname="com.zshop.helper.utils.ConversionUtilsTest" time="0.002"/>
+  <testcase name="shouldTestGetSafeDouble" classname="com.zshop.helper.utils.ConversionUtilsTest" time="0"/>
+  <testcase name="shouldTestGetSafeInteger" classname="com.zshop.helper.utils.ConversionUtilsTest" time="0"/>
   <testcase name="shouldTestStringToBooleanConverterFail" classname="com.zshop.helper.utils.ConversionUtilsTest" time="0"/>
-  <testcase name="shouldTestBooleanConverter" classname="com.zshop.helper.utils.ConversionUtilsTest" time="0"/>
+  <testcase name="shouldTestBooleanConverter" classname="com.zshop.helper.utils.ConversionUtilsTest" time="0.001"/>
   <testcase name="shouldTestGetSafeString" classname="com.zshop.helper.utils.ConversionUtilsTest" time="0"/>
-  <testcase name="shouldTestGetSafeDoubleFail" classname="com.zshop.helper.utils.ConversionUtilsTest" time="0.001"/>
-  <testcase name="shouldTestGetSafeLongFail" classname="com.zshop.helper.utils.ConversionUtilsTest" time="0.001"/>
+  <testcase name="shouldTestGetSafeDoubleFail" classname="com.zshop.helper.utils.ConversionUtilsTest" time="0"/>
+  <testcase name="shouldTestGetSafeLongFail" classname="com.zshop.helper.utils.ConversionUtilsTest" time="0"/>
   <testcase name="shouldTestGetSafeBooleanFromIntegerFail" classname="com.zshop.helper.utils.ConversionUtilsTest" time="0"/>
   <testcase name="shouldTestGetSafeBigDecimalForFloat" classname="com.zshop.helper.utils.ConversionUtilsTest" time="0"/>
   <testcase name="shouldTestGetSafeBigDecimalForShort" classname="com.zshop.helper.utils.ConversionUtilsTest" time="0"/>
-  <testcase name="shouldTestBooleanConverterNullFail" classname="com.zshop.helper.utils.ConversionUtilsTest" time="0.001"/>
+  <testcase name="shouldTestBooleanConverterNullFail" classname="com.zshop.helper.utils.ConversionUtilsTest" time="0"/>
   <testcase name="shouldTestBigIntegerToLong" classname="com.zshop.helper.utils.ConversionUtilsTest" time="0"/>
   <testcase name="shouldTestBooleanConverterFail" classname="com.zshop.helper.utils.ConversionUtilsTest" time="0"/>
-  <testcase name="shouldTestGetSafeIntegerFail" classname="com.zshop.helper.utils.ConversionUtilsTest" time="0"/>
+  <testcase name="shouldTestGetSafeIntegerFail" classname="com.zshop.helper.utils.ConversionUtilsTest" time="0.001"/>
   <testcase name="shouldTestConvertBlankToNo" classname="com.zshop.helper.utils.ConversionUtilsTest" time="0"/>
   <testcase name="shouldTestGetSafeBigDecimalForLong" classname="com.zshop.helper.utils.ConversionUtilsTest" time="0"/>
   <testcase name="shouldTestGetSafeBigDecimalForBigInteger" classname="com.zshop.helper.utils.ConversionUtilsTest" time="0"/>
   <testcase name="shouldTestBigIntegerToLongFail" classname="com.zshop.helper.utils.ConversionUtilsTest" time="0"/>
-  <testcase name="shouldTestGetSafeStringFail" classname="com.zshop.helper.utils.ConversionUtilsTest" time="0.001"/>
+  <testcase name="shouldTestGetSafeStringFail" classname="com.zshop.helper.utils.ConversionUtilsTest" time="0"/>
   <testcase name="shouldTestGetSafeLong" classname="com.zshop.helper.utils.ConversionUtilsTest" time="0"/>
   <testcase name="shouldTestGetSafeBooleanFromIntegerFail1" classname="com.zshop.helper.utils.ConversionUtilsTest" time="0"/>
 </testsuite>
